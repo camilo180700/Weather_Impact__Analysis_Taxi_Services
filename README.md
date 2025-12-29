@@ -1,46 +1,53 @@
-# 🚕 Impacto del Clima y la Demanda en Servicios de Taxi
+🚕 Impact of Weather and Demand on Taxi Services
 
-## 📌 Descripción del Proyecto
-Este proyecto analiza datos reales de servicios de taxi para entender patrones de demanda, desempeño de las compañías y el impacto de las condiciones climáticas en la duración de los viajes.
+📌 Project Description
 
-El análisis se desarrolla **después de una fase previa de ejercicios en SQL**, donde se realizaron las consultas necesarias para obtener los datasets. Posteriormente, los datos fueron trabajados en Python para exploración, visualización y validación estadística.
+This project analyzes real-world taxi service data to understand demand patterns, company performance, and the impact of weather conditions on trip duration.
 
----
+The analysis was developed after a prior phase of SQL exercises, where the necessary datasets were obtained through structured queries. Once the data was extracted, Python was used for data exploration, visualization, and statistical validation.
 
-## 🎯 Objetivos
-- Identificar los barrios con mayor promedio de viajes.
-- Analizar las compañías de taxi con mayor volumen de viajes.
-- Evaluar el impacto del clima en la duración de los trayectos.
-- Validar hipótesis mediante pruebas estadísticas.
+🎯 Objectives
 
----
+Identify the neighborhoods with the highest average number of trips.
 
-## 🛠️ Metodología
-1. **Carga y exploración de datos**
-   - Importación de datasets generados previamente con SQL.
-   - Revisión de estructura, tipos de datos y valores faltantes.
+Analyze taxi companies with the highest trip volumes.
 
-2. **Análisis exploratorio**
-   - Ranking de barrios por promedio de viajes.
-   - Análisis del top 10 de compañías y agrupación del resto como *Other*.
-   - Visualizaciones para identificar patrones de demanda.
+Evaluate the impact of weather conditions on trip duration.
 
-3. **Prueba de hipótesis**
-   - Comparación de la duración de los viajes en días lluviosos vs no lluviosos.
-   - Uso de pruebas estadísticas para validar diferencias significativas.
+Validate hypotheses using statistical tests.
 
-4. **Conclusiones**
-   - Interpretación de resultados basada en evidencia estadística.
+🛠️ Methodology
 
----
+Data loading and exploration
 
-## 📊 Resultados Clave
-- Los barrios con mayor promedio de viajes concentran gran parte de la demanda urbana.
-- Un grupo reducido de compañías domina el volumen total de trayectos.
-- Los viajes realizados en días lluviosos presentan una **mayor duración promedio**, con una diferencia estadísticamente significativa.
+Importing datasets previously generated using SQL.
 
----
+Reviewing data structure, data types, and missing values.
 
-## 📂 Estructura del Proyecto
+Exploratory data analysis
+
+Ranking neighborhoods by average number of trips.
+
+Analyzing the top 10 taxi companies and grouping the rest as Other.
+
+Visualizations to identify demand patterns.
+
+Hypothesis testing
+
+Comparing trip durations on rainy vs non-rainy days.
+
+Applying statistical tests to validate significant differences.
+
+Conclusions
+
+Interpreting results based on statistical evidence.
+
+📊 Key Findings
+
+Neighborhoods with the highest average number of trips concentrate a large share of urban demand.
+
+A small group of companies dominates the total number of trips.
+
+Trips taken on rainy days show a higher average duration, with a statistically significant difference.
 
 
